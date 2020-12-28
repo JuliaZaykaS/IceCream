@@ -1,0 +1,71 @@
+/*=== Общие ===*/
+
+:root {
+  /* Палитра */
+  --color-white: #ffffff;
+  --color-bright-pink: #d41443;
+  --color-light-pink: #ffa5ba;
+  --color-second-light-pink: #ffb8ca;
+  --color-light-orange: #f0d1a5;
+  --color-light-green: #c2e297;
+  --color-very-light-pink: #fff5f6;
+  --color-black: #000000;
+
+  /* Названия переменных */
+  --main-text-background-color: var(--color-white);
+  --main-text-color: var(--color-bright-pink);
+  --second-text-color: var(--color-light-pink);
+  --second-text-background-color: var(--color-second-light-pink);
+  --third-text-color: var(--color-black);
+  --third-backround-color: var(--color-light-green);
+  --fourth-bacground-color: var(--color-very-light-pink);
+
+  --main-font-family: "DM Sans", sans-serif;
+  --secondary-font-family: "Titan One", cursive;
+}
+
+body {
+  color: var(--main-text-background-color);
+  /* background-color: var(--main-text-background-color); */
+  background-color: aqua;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.04em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--main-text-background-color);
+}
+
+/*=== Навигация ===*/
+.site-nav {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--color-bright-pink);
+}
+
+.button {
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+}
+/*=== /Навигация ===*/
+
+/*=== О нас ===*/
+/*=== /О нас ===*/

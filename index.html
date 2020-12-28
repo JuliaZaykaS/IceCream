@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IceCream</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -12,26 +21,26 @@
         <a href="#">
           <img src="./images/logo 1.jpg" alt="Логотип IceCream" />
         </a>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">How it’s made?</a></li>
-          <li><a href="#">Our products</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="list site-nav">
+          <li><a class="link" href="#">Home</a></li>
+          <li><a class="link" href="#">About us</a></li>
+          <li><a class="link" href="#">How it’s made?</a></li>
+          <li><a class="link" href="#">Our products</a></li>
+          <li><a class="link" href="#">Contact</a></li>
         </ul>
       </nav>
-      <a href="#">Buy now</a>
+      <a class="link button" href="#">Buy now</a>
     </header>
     <main>
       <!-- О нас -->
       <section>
         <h1>About us</h1>
         <h2>ice cream made with passion</h2>
-        <ul>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">How it’s made?</a></li>
+        <ul class="list">
+          <li><a class="link" href="#">Products</a></li>
+          <li><a class="link" href="#">How it’s made?</a></li>
         </ul>
-        <ul>
+        <ul class="list">
           <li>
             <p>16 cafes</p>
           </li>
@@ -53,11 +62,11 @@
       <section>
         <h2>Types of products and composition</h2>
         <p>100% natural products</p>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./images/home-pic1.jpg" alt="Мороженое" />
             <h3>ice cream</h3>
-            <ul>
+            <ul class="list">
               <li><img src="./images/Ellipse 5.jpg" alt="Кружочек" /></li>
               <li><img src="./images/Ellipse 5.jpg" alt="Кружочек" /></li>
               <li><img src="./images/Ellipse 5.jpg" alt="Кружочек" /></li>
@@ -71,7 +80,7 @@
           <li>
             <img src="./images/home-pic2.jpg" alt="Холодный кофе" />
             <h3>ice coffee</h3>
-            <ul>
+            <ul class="list">
               <li><img src="./images/Ellipse 5.jpg" alt="Кружочек" /></li>
               <li><img src="./images/Ellipse 5.jpg" alt="Кружочек" /></li>
               <li><img src="./images/Ellipse 5.jpg" alt="Кружочек" /></li>
@@ -85,7 +94,7 @@
           <li>
             <img src="./images/home-pic3.jpg" alt="Молочный коктейль" />
             <h3>milkshakes</h3>
-            <ul>
+            <ul class="list">
               <li><img src="./images/Ellipse 5.jpg" alt="Кружочек" /></li>
               <li><img src="./images/Ellipse 5.jpg" alt="Кружочек" /></li>
               <li><img src="./images/Ellipse 5.jpg" alt="Кружочек" /></li>
@@ -115,11 +124,11 @@
           suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
           tincidunt. Aliquam erat volutpat. Aenean accumsan.
         </p>
-        <a href="#"
+        <a class="link" href="#"
           >Read more
           <img src="./images/arrow mini right.jpg" alt="Стрелочка вправо" />
         </a>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./images/icon1.jpg" alt="Сбор молока" />
             <p>721</p>
@@ -154,7 +163,7 @@
           Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem
           ipsum primis in nibh vel risus.
         </p>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./images/красный кружочек.jpg" alt="красный кружочек" />
           </li>
@@ -166,22 +175,70 @@
           </li>
         </ul>
         <p>Emily, Los Angeles</p>
-        <ul>
+        <ul class="list">
           <li><img src="./images/домик.jpg" alt="Домик" /></li>
           <li><img src="./images/кружочек побольше.jpg" alt="кружочек" /></li>
           <li><img src="./images/кружочек побольше.jpg" alt="кружочек" /></li>
+        </ul>
+        <img src="./images/testimonials1 2.jpg" alt="Фото клиента Анны" />
+        <img src="./images/кавычки.jpg" alt="Левая кавычка" />
+        <p>
+          Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+          Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem
+          ipsum primis in nibh vel risus.
+        </p>
+        <ul class="list">
+          <li>
+            <img src="./images/красный кружочек.jpg" alt="красный кружочек" />
+          </li>
+          <li>
+            <img src="./images/красный кружочек.jpg" alt="красный кружочек" />
+          </li>
+          <li>
+            <img src="./images/красный кружочек.jpg" alt="красный кружочек" />
+          </li>
+        </ul>
+        <p>Anna, New York</p>
+        <ul class="list">
+          <li><img src="./images/кружочек побольше.jpg" alt="кружочек" /></li>
+          <li><img src="./images/домик.jpg" alt="Домик" /></li>
+          <li><img src="./images/кружочек побольше.jpg" alt="кружочек" /></li>
+        </ul>
+        <img src="./images/testimonials1 3.jpg" alt="Фото клиента Лизы" />
+        <img src="./images/кавычки.jpg" alt="Левая кавычка" />
+        <p>
+          Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+          Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem
+          ipsum primis in nibh vel risus.
+        </p>
+        <ul class="list">
+          <li>
+            <img src="./images/красный кружочек.jpg" alt="красный кружочек" />
+          </li>
+          <li>
+            <img src="./images/красный кружочек.jpg" alt="красный кружочек" />
+          </li>
+          <li>
+            <img src="./images/красный кружочек.jpg" alt="красный кружочек" />
+          </li>
+        </ul>
+        <p>Lisa, Chicago</p>
+        <ul class="list">
+          <li><img src="./images/кружочек побольше.jpg" alt="кружочек" /></li>
+          <li><img src="./images/кружочек побольше.jpg" alt="кружочек" /></li>
+          <li><img src="./images/домик.jpg" alt="Домик" /></li>
         </ul>
       </section>
       <!-- /Отзывы -->
       <!-- Контакты магазинов-->
       <section>
         <h2>Contacts</h2>
-        <ul>
+        <ul class="list">
           <li>
             <p>CAFE</p>
             <h3>Chicago</h3>
             <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
-            <ul>
+            <ul class="list">
               <li>
                 <p>Monday - Friday</p>
                 <p>06:00 AM - 10:00 PM</p>
@@ -192,15 +249,23 @@
               </li>
             </ul>
           </li>
-          <ul>
-            <li><a href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></li>
-            <li><a href="mailto:noreply@envato.com">noreply@envato.com</a></li>
+          <ul class="list">
+            <li>
+              <a class="link" href="tel:+61(0) 383 766 284"
+                >+61(0) 383 766 284</a
+              >
+            </li>
+            <li>
+              <a class="link" href="mailto:noreply@envato.com"
+                >noreply@envato.com</a
+              >
+            </li>
           </ul>
           <li>
             <p>FOOD TRUCK</p>
             <h3>Los Angeles</h3>
             <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
-            <ul>
+            <ul class="list">
               <li>
                 <p>Monday - Friday</p>
                 <p>06:00 AM - 10:00 PM</p>
@@ -210,10 +275,16 @@
                 <p>08:00 AM - 16:00 PM</p>
               </li>
             </ul>
-            <ul>
-              <li><a href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></li>
+            <ul class="list">
               <li>
-                <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+                <a class="link" href="tel:+61(0) 383 766 284"
+                  >+61(0) 383 766 284</a
+                >
+              </li>
+              <li>
+                <a class="link" href="mailto:noreply@envato.com"
+                  >noreply@envato.com</a
+                >
               </li>
             </ul>
           </li>
@@ -221,7 +292,7 @@
             <p>CAFE</p>
             <h3>New York</h3>
             <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
-            <ul>
+            <ul class="list">
               <li>
                 <p>Monday - Friday</p>
                 <p>06:00 AM - 10:00 PM</p>
@@ -231,23 +302,29 @@
                 <p>08:00 AM - 16:00 PM</p>
               </li>
             </ul>
-            <ul>
-              <li><a href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></li>
+            <ul class="list">
               <li>
-                <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+                <a class="link" href="tel:+61(0) 383 766 284"
+                  >+61(0) 383 766 284</a
+                >
+              </li>
+              <li>
+                <a class="link" href="mailto:noreply@envato.com"
+                  >noreply@envato.com</a
+                >
               </li>
             </ul>
           </li>
         </ul>
-        <ul>
+        <ul class="list">
           <li>
-            <a href="#"
+            <a class="link" href="#"
               >Our Locations
               <img src="./images/arrow mini right.jpg" alt="стрелочка вправо"
             /></a>
           </li>
           <li>
-            <a href="#"
+            <a class="link" href="#"
               >Franchise
               <img src="./images/arrow mini right.jpg" alt="стрелочка вправо"
             /></a>
@@ -258,22 +335,24 @@
     </main>
     <footer>
       <p></p>
-      <ul>
+      <ul class="list">
         <li>
-          <a href="#" aria-label="Git"><img src="" alt="Логотип Гитхаба" /></a>
+          <a class="link" href="#" aria-label="Git"
+            ><img src="" alt="Логотип Гитхаба"
+          /></a>
         </li>
         <li>
-          <a href="#" aria-label="Telegram"
+          <a class="link" href="#" aria-label="Telegram"
             ><img src="" alt="Логотип Телеграм"
           /></a>
         </li>
         <li>
-          <a href="#" aria-label="Facebook"
+          <a class="link" href="#" aria-label="Facebook"
             ><img src="" alt="Логотип Фейсбук"
           /></a>
         </li>
       </ul>
-      <a href="tel:+61 (0) 383 766 284"
+      <a class="link" href="tel:+61 (0) 383 766 284"
         >Feel free to contact +61 (0) 383 766 284</a
       >
       <p>© 2019 - IceCream. All Rights Reserved.</p>
