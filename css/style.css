@@ -11,6 +11,7 @@
   --color-very-light-pink: #fff5f6;
   --color-black: #000000;
   --color-grey-white: #ecebeb;
+  --color-grey-pink: #907e82;
 
   /* Названия переменных */
   --main-text-background-color: var(--color-white);
@@ -18,8 +19,9 @@
   --second-text-color: var(--color-light-pink);
   --second-text-background-color: var(--color-second-light-pink);
   --third-text-color: var(--color-black);
-  --third-backround-color: var(--color-light-green);
-  --fourth-bacground-color: var(--color-very-light-pink);
+  --third-background-color: var(--color-light-green);
+  --fourth-background-color: var(--color-very-light-pink);
+  --fourth-text-color: var(--color-grey-pink);
   --not-hover-background: var(--color-grey-white);
 
   --main-font-family: "DM Sans", sans-serif;
@@ -149,4 +151,103 @@ body {
 
 /*=== Виды продукции и состав ===*/
 
+.product-name {
+  font-size: 30px;
+  line-height: 1.13;
+  color: var(--main-text-background-color);
+}
+
+.product-description {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.76;
+  color: var(--main-text-background-color);
+}
+
 /*=== /Виды продукции и состав ===*/
+
+/*=== Как производится мороженое ===*/
+
+.summary-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.76;
+  color: var(--third-text-color);
+}
+
+.description-of-production {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.94;
+  color: var(--fourth-text-color);
+}
+
+.statistics {
+  font-family: var(--secondary-font-family);
+  letter-spacing: 0.04em;
+}
+
+.statistics-description {
+  letter-spacing: 0.02em;
+  color: var(--third-text-color);
+}
+/*=== /Как производится мороженое ===*/
+
+/*=== Галерея ===*/
+/*=== /Галерея ===*/
+
+/*=== Отзывы ===*/
+/* font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px; */
+.reviews-text {
+  line-height: 1.86;
+}
+
+.reviews-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.86;
+  color: var(--third-text-color);
+}
+
+/*=== /Отзывы ===*/
+
+/*=== Контакты магазинов ===*/
+
+.type-of-store {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+}
+
+.store-address {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+  color: var(--third-text-color);
+}
+
+.store-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.83;
+  color: var(--fourth-text-color);
+}
+
+.store-day-work {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+  color: var(--third-text-color);
+}
+
+.store-time-work {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+  color: var(--second-text-color);
+}
+
+/*=== /Контакты магазинов ===*/
