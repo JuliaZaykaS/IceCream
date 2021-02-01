@@ -16,164 +16,186 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header-links">
-          <nav class="navigation">
-            <a class="logo" href="#">
-              <img src="./images/logo.svg" alt="Логотип IceCream" />
+    <main>
+      <header class="header">
+        <div class="container">
+          <div class="header-links">
+            <nav class="navigation">
+              <a class="logo" href="#">
+                <img src="./images/logo.svg" alt="Логотип IceCream" />
+              </a>
+              <ul class="list site-nav">
+                <li><a class="link" href="#">Home</a></li>
+                <li><a class="link" href="#">About us</a></li>
+                <li><a class="link" href="#">How it’s made?</a></li>
+                <li><a class="link" href="#">Our products</a></li>
+                <li><a class="link" href="#">Contact</a></li>
+              </ul>
+            </nav>
+            <a class="link button header-button" href="#"
+              >Buy now
+              <svg
+                width="6"
+                height="10"
+                viewBox="0 0 6 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 1L5 5L1 9"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
             </a>
-            <ul class="list site-nav">
-              <li><a class="link" href="#">Home</a></li>
-              <li><a class="link" href="#">About us</a></li>
-              <li><a class="link" href="#">How it’s made?</a></li>
-              <li><a class="link" href="#">Our products</a></li>
-              <li><a class="link" href="#">Contact</a></li>
-            </ul>
-          </nav>
-          <a class="link button header-button" href="#"
-            >Buy now
-            <svg
-              width="6"
-              height="10"
-              viewBox="0 0 6 10"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1 1L5 5L1 9"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </a>
+          </div>
         </div>
-      </div>
-    </header>
-    <section class="about-us-section">
-      <div class="container">
-        <h2 hidden>About us</h2>
-        <div class="about-us">
-          <div class="description">
-            <h3 class="title title-begin">
-              ice cream made with <span class="title-accent">passion</span>
-            </h3>
-            <ul class="list buttons">
-              <li><a class="link button" href="#">Products</a></li>
-              <li><a class="link button" href="#">How it’s made?</a></li>
-            </ul>
+      </header>
 
-            <div class="know-more">
+      <!-- О нас -->
 
-              <img class="about-us-milk" src="./images/milk.png" alt="Кувшин с молоком" />
-              <div>
+      <section class="about-us-section">
+        <div class="container">
+          <h2 hidden>About us</h2>
+          <div class="about-us">
+            <div class="description">
+              <h3 class="title title-begin">
+                ice cream made with <span class="title-accent">passion</span>
+              </h3>
+              <ul class="list buttons">
+                <li><a class="link button" href="#">Products</a></li>
+                <li><a class="link button" href="#">How it’s made?</a></li>
+              </ul>
 
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et
-                </p>
-                <a href="#">
-
-                      <img src="./images/arrow-right.svg" alt="Стрелочка вправо" />
-                </a>
+              <div class="know-more">
+                <img
+                  class="about-us-milk"
+                  src="./images/milk.png"
+                  alt="Кувшин с молоком"
+                />
+                <div>
+                  <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et
+                  </p>
+                  <a href="#">
+                    <img
+                      src="./images/arrow-right.svg"
+                      alt="Стрелочка вправо"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
+            <div class="statistics">
+              <ul class="list statistics-list">
+                <li class="items">
+                  <p class="accent-number">16</p>
+                  <p class="number-of-stores">cafes</p>
+                </li>
+                <li class="items">
+                  <p class="accent-number">23</p>
+                  <p class="number-of-stores">food trucks</p>
+                </li>
+              </ul>
+              <img
+                class="about-us-girl"
+                src="./images/girl.png"
+                alt="девушка"
+              />
+            </div>
           </div>
-          <div class="about us">
-          <div class="statistics">
-            <ul class="list statistics-list">
-              <li class="items">
-                <p class="accent-number">16</p>
-                <p class="number-of-stores">
-                  cafes
-                </p>
+        </div>
+      </section>
+      <!-- Виды продукции и состав -->
+      <section class="section">
+        <div class="container">
+          <div class="products">
+            <h2 hidden>Types of products and composition</h2>
+            <h3 class="title title-begin mb-center-title">
+              100% natural<span class="title-accent">products</span>
+            </h3>
+
+            <ul class="list product-list">
+              <li class="product-card bg-card-pink">
+                <img
+                  class="product-foto"
+                  src="./images/icecream-card.png"
+                  alt="Мороженое"
+                />
+                <div class="product-info">
+                  <div>
+                    <h3 class="title product-name">ice cream</h3>
+                    <img src="./images/Group-circle.svg" alt="3 кружочка" />
+                  </div>
+
+                  <p class="product-description">Lorem ipsum dolor</p>
+                  <div class="button-right">
+                    <a href="#">
+                      <img
+                        src="./images/arrow-right.svg"
+                        alt="Стрелочка вправо"
+                      />
+                    </a>
+                  </div>
+                </div>
               </li>
-              <li class="items">
-                <p class="accent-number">23</p>
-                <p class="number-of-stores">
-                  food trucks
-                </p>
+              <li class="product-card bg-card-orange">
+                <img
+                  class="product-foto"
+                  src="./images/icecoffe.png"
+                  alt="Холодный кофе"
+                />
+                <div class="product-info">
+                  <div>
+                    <h3 class="title product-name">ice coffee</h3>
+                    <img src="./images/Group-circle.svg" alt="3 кружочка" />
+                  </div>
+
+                  <p class="product-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et
+                  </p>
+                  <div class="button-right">
+                    <a href="#">
+                      <img
+                        src="./images/arrow-right.svg"
+                        alt="Стрелочка вправо"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="product-card bg-card-green">
+                <img
+                  class="product-foto"
+                  src="./images/milkshakes.png"
+                  alt="Молочный коктейль"
+                />
+                <div class="product-info">
+                  <div>
+                    <h3 class="title product-name">milkshakes</h3>
+                    <img src="./images/Group-circle.svg" alt="3 кружочка" />
+                  </div>
+
+                  <p class="product-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et
+                  </p>
+                  <div class="button-right">
+                    <a href="#">
+                      <img
+                        src="./images/arrow-right.svg"
+                        alt="Стрелочка вправо"
+                      />
+                    </a>
+                  </div>
+                </div>
               </li>
             </ul>
-            <img class="image" src="./images/girl.png" alt="девушка" />
           </div>
-        </div>
-        </div>
-    </section>
-    <!-- Виды продукции и состав -->
-      <section class="section products">
-        <div class="container">
-          <!-- <h2 hidden>Types of products and composition</h2> -->
-          <h3 class="title title-begin">
-            100% natural<span class="title-accent">products</span>
-          </h3>
-          <ul class="list product-list">
-            <li class="product-card bg-card-pink ">
-              <img class="product-foto" src="./images/icecream-card.png" alt="Мороженое" />
-              <div class="product-info ">
-                <div>
-
-                  <h3 class="title product-name">ice cream</h3>
-                  <img src="./images/Group-circle.svg" alt="3 кружочка">
-
-                </div>
-
-                <p class="product-description">
-                  Lorem ipsum dolor
-                </p>
-                <div class="button-right">
-                  <a href="#">
-
-                    <img src="./images/arrow-right.svg" alt="Стрелочка вправо" />
-                  </a>
-
-                </div>
-              </div>
-            </li>
-            <li class="product-card bg-card-orange">
-              <img class="product-foto" src="./images/icecoffe.png" alt="Холодный кофе" />
-              <div class="product-info ">
-                <div>
-
-                  <h3 class="title product-name">ice coffee</h3>
-                  <img src="./images/Group-circle.svg" alt="3 кружочка">
-                </div>
-
-                <p class="product-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et
-                </p>
-                <div class="button-right">
-                  <a href="#">
-
-                    <img src="./images/arrow-right.svg" alt="Стрелочка вправо" />
-                  </a>
-                </div>
-              </div>
-            </li>
-            <li class="product-card bg-card-green">
-              <img class="product-foto" src="./images/milkshakes.png" alt="Молочный коктейль" />
-              <div class="product-info ">
-                <div>
-
-                  <h3 class="title product-name">milkshakes</h3>
-                  <img src="./images/Group-circle.svg" alt="3 кружочка">
-                </div>
-
-                <p class="product-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et
-                </p>
-                <div class="button-right">
-                  <a href="#">
-                    <img src="./images/arrow-right.svg" alt="Стрелочка вправо" />
-                  </a>
-                </div>
-              </div>
-            </li>
-          </ul>
         </div>
       </section>
       <!-- /Виды продукции и состав -->

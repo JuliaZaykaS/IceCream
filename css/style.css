@@ -32,6 +32,7 @@
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -179,6 +180,7 @@ body {
 .about-us {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .about-us .title-begin {
@@ -270,6 +272,11 @@ body {
   text-align: end;
 }
 
+.about-us-girl {
+  display: block;
+  /* margin-bottom: 0; */
+}
+
 /*=== Виды продукции и состав ===*/
 .products {
   background-color: var(--main-text-background-color);
@@ -289,10 +296,23 @@ body {
   color: var(--second-text-color);
 }
 
+.mb-center-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  /* text-align: center; */
+  flex-direction: column;
+}
+
 .product-list {
+  /* position: relative; */
   display: flex;
   justify-content: center;
   height: 735px;
+  align-items: flex-end;
 }
 
 .product-card {
